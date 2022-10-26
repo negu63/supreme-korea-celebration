@@ -29,3 +29,7 @@ a {
   }
 }
 
+.pg-wrapper {
+  overflow: hidden !important;
+  padding: 0 !important;
+}
