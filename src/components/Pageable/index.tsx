@@ -64,6 +64,7 @@ export default function Pageable({ histories }: { histories: HistoryProps[] }) {
                 key={history.name}
                 data-anchor={history.name}
                 className="pg-page"
+                style={{ backgroundImage: `url("/images/back-cut-transformed.png")` }}
               >
                 <History
                   num={history.number}
