@@ -1,5 +1,6 @@
 import History from "../../components/History";
 import { useEffect, useRef } from "react";
+import Taeguek from "../Taegeuk";
 
 interface HistoryProps {
   number: Number | string;
@@ -52,8 +53,6 @@ export default function Pageable({ histories }: { histories: HistoryProps[] }) {
     loadPageable();
   }, []);
 
-  console.log(histories);
-
   return (
     <>
       <main className="indexPage pg-wrapper">
@@ -64,7 +63,9 @@ export default function Pageable({ histories }: { histories: HistoryProps[] }) {
                 key={history.name}
                 data-anchor={history.name}
                 className="pg-page"
-                style={{ backgroundImage: `url("/images/back-cut-transformed.png")` }}
+                style={{
+                  backgroundImage: `url("/images/back-cut-transformed.png")`,
+                }}
               >
                 <History
                   num={history.number}
@@ -75,6 +76,9 @@ export default function Pageable({ histories }: { histories: HistoryProps[] }) {
               </div>
             );
           })}
+          <div key={"Taeguek"} data-anchor={"Taeguek"} className="pg-page">
+            <Taeguek />
+          </div>
         </div>
       </main>
     </>
