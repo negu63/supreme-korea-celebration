@@ -1,0 +1,80 @@
+[
+    {
+        "number": 1,
+        "fileName": "box_logo_1_newyork.png",
+        "name": "Classic Red",
+        "info":"1994, New York-U.S.A"
+    },
+    {
+        "number": "No.2, No.3, No.4",
+        "fileName": "box_logo_2_daikanyama.png",
+        "name": "Grid",
+        "info":"1998, Daikanyama, Osaka, Fukuoka-Japan"
+    },
+    {
+        "number": 5,
+        "fileName": "box_logo_5_la.png",
+        "name": "Hebrew",
+        "info":"2004, New York-U.S.A"
+    },
+    {
+        "number": 6,
+        "fileName": "box_logo_6_harajuku.png",
+        "name": "Snake Skin",
+        "info":"2006, Harajuku-Japan"
+    },
+    {
+        "number": 7,
+        "fileName": "box_logo_7_nagoya.png",
+        "name": "Gold Poil",
+        "info":"2008, Nagoya-Japan"
+    },
+    {
+        "number": 8,
+        "fileName": "box_logo_8_london.png",
+        "name": "Union Jack",
+        "info":"2011, London-U.K"
+    },
+    {
+        "number": 9,
+        "fileName": "box_logo_9_shibuya.png",
+        "name": "Nate Lowman",
+        "info":"2012, Shibuya-Japan"
+    },
+    {
+        "number": 10,
+        "fileName": "box_logo_10_paris.png",
+        "name": "Black",
+        "info":"2016, Paris-France"
+    },
+    {
+        "number": 11,
+        "fileName": "box_logo_11_brooklyn.png",
+        "name": "Yellow Camo",
+        "info":"2017, Brooklyn-U.S.A"
+    },
+    {
+        "number": 12,
+        "fileName": "box_logo_12_sanfrancisco.png",
+        "name": "Orange",
+        "info":"2019, San Francisco-U.S.A"
+    },
+    {
+        "number": 13,
+        "fileName": "box_logo_13_milan.png",
+        "name": "Last Supper",
+        "info":"2021, Milan-Italy"
+    },
+    {
+        "number": 14,
+        "fileName": "box_logo_14_berlin.png",
+        "name": "Olive",
+        "info":"2021, Berlin-Germany"
+    },
+    {
+        "number": "No.??",
+        "fileName": "box_logo_15_seoul.png",
+        "name": "Taeguek",
+        "info":"2023, Seoul-Korea"
+    }
+]
