@@ -24,7 +24,9 @@ export default function History({
         </Margin>
         <Margin bottom={22}>
           <Center>
-            <AutoHeightImage width={90} src={src} />
+            <div style={{height: '200px'}}>
+              <AutoHeightImage width={90} src={src} />
+            </div>
           </Center>
         </Margin>
         <Text size={1.3}>{name}</Text>
