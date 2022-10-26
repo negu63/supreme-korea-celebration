@@ -9,7 +9,7 @@ export default function AutoHeightImage({
 }) {
   return (
     <>
-      <div style={{ width: `${width}px` }}>
+      <div style={{ maxWidth:'400px', width: `${width}vw` }}>
         <Image
           src={src}
           alt=""
