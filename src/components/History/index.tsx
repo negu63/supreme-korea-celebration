@@ -17,11 +17,15 @@ export default function History({
   return (
     <Center>
       <div>
-        <Margin top={14} bottom={18}>
-          <Text size={1.3}>{`No.${num}`}</Text>
+        <Margin top={18} bottom={14}>
+          <Text size={1.3}>
+            {Number.isInteger(num) ? `No.${num}` : `${num}`}
+          </Text>
         </Margin>
         <Margin bottom={22}>
-          <AutoHeightImage width={90} src={src} />
+          <Center>
+            <AutoHeightImage width={90} src={src} />
+          </Center>
         </Margin>
         <Text size={1.3}>{name}</Text>
         <Text size={1.3}>{info}</Text>
