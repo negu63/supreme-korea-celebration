@@ -4,11 +4,11 @@ import Margin from "../Margin";
 import AutoHeightImage from "../AutoHeightImage";
 import Symbol from "../Symbol";
 
-export default function Taeguek() {
+export default function Taegeuk() {
   const history = {
     number: "No.??",
     fileName: "box_logo_15_seoul.png",
-    name: "Taeguek",
+    name: "Taegeuk",
     info: "2023, Seoul-Korea",
   };
 
