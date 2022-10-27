@@ -10,10 +10,13 @@ export default function Usage() {
         <Center>
           <div>
             <Center>
-              <AutoHeightImage
-                width={20}
-                src={"/images/logo/box_logo_1_newyork.png"}
-              />
+              <Margin bottom={2}>
+                <AutoHeightImage
+                  width={40}
+                  maxWidth={150}
+                  src={"/images/logo/box_logo_1_newyork.png"}
+                />
+              </Margin>
             </Center>
             <Text size={1.2}>{"2023 Supreme Korea"}</Text>
             <Text size={1.2}>{"Celebration"}</Text>
