@@ -10,7 +10,7 @@ export default function Usage() {
         <Center>
           <div>
             <Center>
-              <Margin bottom={2}>
+              <Margin bottom={1}>
                 <AutoHeightImage
                   width={40}
                   maxWidth={150}
