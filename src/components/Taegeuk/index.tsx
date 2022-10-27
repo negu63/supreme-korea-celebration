@@ -51,6 +51,9 @@ export default function Taegeuk() {
           </Margin>
           <Text size={1.3}>{"Taegeuk"}</Text>
           <Text size={1.3}>{"2023, Seoul-Korea"}</Text>
+          <Margin top={10}>
+            <Text size={1.5}>{"Comming Soon"}</Text>
+          </Margin>
         </div>
       </Center>
     </>
