@@ -1,15 +1,17 @@
 import Image from "next/image";
 
 export default function AutoHeightImage({
-  width,
+  width=30,
+  maxWidth=400,
   src,
 }: {
-  width: Number;
+  width?: Number;
+  maxWidth?: Number;
   src: string;
 }) {
   return (
     <>
-      <div style={{ maxWidth:'400px', width: `${width}vw` }}>
+      <div style={{ maxWidth: `${maxWidth}px`, width: `${width}vw` }}>
         <Image
           src={src}
           alt=""
