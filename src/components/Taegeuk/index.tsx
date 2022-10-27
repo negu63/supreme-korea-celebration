@@ -31,7 +31,7 @@ export default function Taegeuk() {
           <Margin top={18} bottom={14}>
             <Text size={1.3}>{"No.??"}</Text>
           </Margin>
-          <Margin bottom={22}>
+          <Margin bottom={window.screen.height > 1000 ? 22 : 0}>
             <Center>
               <div style={{ height: "200px" }}>
                 {window.screen.width >= 850 && (
