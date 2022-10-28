@@ -7,10 +7,10 @@ import { useState } from "react";
 
 export default function Taegeuk() {
   const logos = [
-    "box_logo_15_seoul.png",
-    "supreme-taeguek-glitch.gif",
-    "supreme-taeguk-kor.png",
-    "supreme-taeguk-kor-glitch.gif",
+    "box_logo_15_seoul_small.png",
+    "supreme-taeguek-glitch_small.gif",
+    "supreme-taeguk-kor_small.png",
+    "supreme-taeguk-kor-glitch_small.gif",
   ];
 
   const [logoState, setLogoState] = useState(0);
