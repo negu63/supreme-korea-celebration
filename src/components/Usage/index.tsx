@@ -14,7 +14,7 @@ export default function Usage() {
                 <AutoHeightImage
                   width={40}
                   maxWidth={150}
-                  src={"/images/logo/box_logo_1_newyork.png"}
+                  src={"/images/logo/box_logo_1_newyork_small.png"}
                 />
               </Margin>
             </Center>
