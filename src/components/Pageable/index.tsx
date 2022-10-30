@@ -58,7 +58,13 @@ export default function Pageable({ histories }: { histories: HistoryProps[] }) {
     <>
       <main className="indexPage pg-wrapper">
         <div id="container" className="pg-container" ref={containerRef}>
-          <div data-anchor={"usage"} className="pg-page">
+          <div
+            data-anchor={"usage"}
+            className="pg-page"
+            style={{
+              backgroundImage: `url("/images/back-cut-transformed.png")`,
+            }}
+          >
             <Usage />
           </div>
           {histories.map((history) => {
