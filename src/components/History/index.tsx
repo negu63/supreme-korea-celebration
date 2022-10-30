@@ -22,7 +22,7 @@ export default function History({
             {Number.isInteger(num) ? `No.${num}` : `${num}`}
           </Text>
         </Margin>
-        <Margin bottom={window.screen.height > 1000 ? 22 : 0}>
+        <Margin bottom={window.innerHeight > 1000 ? 22 : 0}>
           <Center>
             <div style={{ height: "200px" }}>
               <AutoHeightImage width={90} src={src} />

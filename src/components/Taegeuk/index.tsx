@@ -31,10 +31,10 @@ export default function Taegeuk() {
           <Margin top={18} bottom={14}>
             <Text size={1.3}>{"No.??"}</Text>
           </Margin>
-          <Margin bottom={window.screen.height > 1000 ? 22 : 0}>
+          <Margin bottom={window.innerHeight > 1000 ? 22 : 0}>
             <Center>
               <div style={{ height: "200px" }}>
-                {window.screen.width >= 850 && (
+                {window.innerWidth >= 850 && (
                   <>
                     <Symbol src="/images/3.png" left={-410} top={-210} />
                     <Symbol src="/images/4.png" left={-410} top={140} />
