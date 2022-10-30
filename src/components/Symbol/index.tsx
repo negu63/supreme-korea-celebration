@@ -28,6 +28,7 @@ export default function Symbol({
           position: "absolute",
           height: "auto",
         }}
+        priority={true}
       />
     </div>
   );
