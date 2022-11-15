@@ -11,7 +11,9 @@
 <br>
 <br>
 
-![](https://user-images.githubusercontent.com/86910140/201856235-fa9b0fe5-e31b-46bd-88e0-8c46b354a9a0.gif)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/86910140/201856235-fa9b0fe5-e31b-46bd-88e0-8c46b354a9a0.gif" />
+</div>
 
 <br>
 <br>
